@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "bmewburn.vscode-intelephense-client",
+        "EditorConfig.EditorConfig",
+        "vscode-icons-team.vscode-icons",
+        "geyao.html-snippets",
+    ],
+    "unwantedRecommendations": [
+
+    ]
+}

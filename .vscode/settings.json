@@ -1,0 +1,53 @@
+{
+    "editor.autoIndent": "advanced",
+    "editor.autoClosingBrackets": "always",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.comments.insertSpace": true,
+    "editor.formatOnPaste": true,
+    "editor.guides.indentation": true,
+    "editor.unusualLineTerminators": "off",
+    "editor.trimAutoWhitespace": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+
+    "files.encoding": "utf8",
+    "files.insertFinalNewline": false,
+    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+    "files.associations": {
+        "**/html/includes/*.inc": "html",
+        "*.twig": "html",
+        "*.webmanifest": "json",
+        "*.qry": "sql",
+        "*.db": "sql"
+    },
+
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.decorations.colors": false,
+    "workbench.colorCustomizations": {
+        "editorLineNumber.foreground": "#c16266"
+    },
+
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "editor.wordWrap": "off",
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "on",
+            "strings": "on"
+        },
+        "editor.fontFamily": "'Comic Sans MS', 'Droid Sans Mono', 'monospace', monospace",
+        "editor.fontSize": 15
+    },
+    "[php]": {
+        "editor.cursorStyle": "line",
+        "editor.cursorSmoothCaretAnimation": "on",
+        "editor.cursorBlinking": "expand"
+    },
+    "[shellscript]": {
+        "editor.cursorStyle": "block",
+        "editor.cursorSmoothCaretAnimation": "off",
+        "editor.cursorBlinking": "smooth"
+    }
+}

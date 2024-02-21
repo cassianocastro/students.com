@@ -1,0 +1,72 @@
+{
+    // Place your api.bookstore.com workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+    // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+    // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+    // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+    // Placeholders with the same ids are connected.
+    // Example:
+    // "Print to console": {
+    // 	"scope": "javascript,typescript",
+    // 	"prefix": "log",
+    // 	"body": [
+    // 		"console.log('$1');",
+    // 		"$2"
+    // 	],
+    // 	"description": "Log output to console"
+    // }
+    "conditional": {
+        "description": "Prints a conditional clause.",
+        "scope": "php",
+        "prefix": "if",
+        "body": "if ( ${1:condition} )\n{\n\t${2:# code...}\n}"
+    },
+    "switchCase": {
+        "description": "Prints a switch conditional clause.",
+        "scope": "php",
+        "prefix": "switch",
+        "body": "switch ( ${1:true} )\n{\n\tcase 'value':\n\t\t${2:# code...}\n\t\tbreak;\n\tdefault:\n\t\t${3:# code...}\n}"
+    },
+    "match": {
+        "description": "Prints a match conditional clause.",
+        "scope": "php",
+        "prefix": "match",
+        "body": "match ( \\$${1:value} )\n{\n\t${2:expression} => ${3:statement},\n\tdefault => ${4:statement}\n};"
+    },
+    "for loop": {
+        "description": "Prints a for loop clause.",
+        "scope": "php",
+        "prefix": "for",
+        "body": "for ( ${1:\\$i} = 0; ${1:\\$i} < ${2:\\$size}; ${1:\\$i}++ )\n{\n\t${3:# code...}\n}"
+    },
+    "foreach loop": {
+        "description": "Prints a foreach loop clause.",
+        "scope": "php",
+        "prefix": "foreach",
+        "body": "for ( ${1:\\$variable} as ${2:\\$key} ${3:=> \\$value} )\n{\n\t${4:# code...}\n}"
+    },
+    "while loop": {
+        "description": "Prints a while loop clause.",
+        "scope": "php",
+        "prefix": "while",
+        "body": "while ( ${1:true} )\n{\n\t${2:# code...}\n}"
+    },
+    "try": {
+        "description": "Prints try/catch/finally clauses.",
+        "scope": "php",
+        "prefix": "try",
+        "body": "try\n{\n\t${1:# code...}\n} catch (${2:Exception} \\$e)\n{\n\t${3:# code...}\n} finally\n{\n\t${4:# code...}\n}"
+    },
+    "declare function": {
+        "description": "Declare a signature of function",
+        "scope": "php",
+        "prefix": "decfunction",
+        "body": "${1:public} function ${2:name}(): ${3:void};"
+    },
+    "declare interface": {
+        "description": "Declare an interface",
+        "scope": "php",
+        "prefix": "interface",
+        "body": "/**\n *\n */\ninterface ${1:Name}\n{\n\t${2:# code...}\n}"
+    }
+}
