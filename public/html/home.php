@@ -82,7 +82,7 @@
     </section>
 
 	</main>
-  
+
 	<?php include_once __DIR__ . '/includes/footer.inc'; ?>
 </body>
 </html>

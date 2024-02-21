@@ -26,7 +26,7 @@ time, mark, audio, video
 	vertical-align: baseline;
 }
 
-/* 
+/*
 	HTML5 display-role reset for older browsers
 */
 article, aside, details, figcaption, figure,
@@ -61,8 +61,8 @@ table
 	border-spacing: 0;
 }
 
-/* 
-	Apply a natural box layout model to all elements, 
+/*
+	Apply a natural box layout model to all elements,
 	but allowing components to change
 */
 html

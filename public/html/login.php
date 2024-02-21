@@ -11,9 +11,9 @@
 </head>
 <body>
 	<?php include_once __DIR__ . '/includes/header.inc'; ?>
-	
+
   <main>
-		
+
     <noscript>
 			<p>Please, enable the JavaScript in your browser.</p>
 		</noscript>
@@ -26,13 +26,13 @@
 					<legend>
             Enter with your data<abbr title="Required Fields">***</abbr>
           </legend>
-			
+
           <label>
 						User:
 
 						<input type="text" name="" value="" required>
 					</label>
-			
+
           <label>
 						Password:
 
@@ -50,7 +50,7 @@
 		</section>
 
 	</main>
-	
+
   <?php include_once __DIR__ . '/includes/footer.inc'; ?>
 
 	<script src=""></script>
