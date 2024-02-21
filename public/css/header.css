@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body
+{
+	background: #e8ebf1;
+}
+
+header > h1
+{
+	color: purple;
+	
+	font-size: 50px;
+
+	text-align: center;
+}
+
+h2
+{
+	font-size: 40px;
+
+	text-align: center;
+}

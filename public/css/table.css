@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import "./reset.css";
+@import "./header.css";
+@import "./footer.css";
+
+section > table, th
+{
+	border: medium solid black;
+}
+
+section > tr, td
+{
+	border: thin solid black;
+}
+
+section > table
+{
+	margin: 0 auto;
+
+	text-align: center;
+
+	height: 200px;
+	width: 60%;
+}
+
+caption
+{
+	color: purple;
+
+	font: bold x-large sans-serif;
+}
