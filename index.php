@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/vendor/autoload.php';
 
 /**
  * @test
@@ -27,7 +28,10 @@ function canAccessApiWithAuthorization(string $user, string $password): void
  */
 function index()
 {
-    // canAccessApiWithAuthorization("", "");
+    error_reporting(E_ALL);
+    ini_set("display_errors", true);
+
+    (new App\controller\HomeController())->index();
 }
 
 index();
