@@ -5,8 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/x-icon" size="24x24" href="src/public/favicons/favicon.ico">
-
   <title>API | Login</title>
 </head>
 <body>
