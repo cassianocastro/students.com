@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Api\Controllers;
+namespace App\controller;
 
 use Api\Http\{ Request, Response };
-use Api\Views\HTMLDocument;
+use App\view\HTMLDocument;
 
 /**
  *
@@ -14,6 +14,6 @@ final class LoginController
 
     public function index(Request $request): Response
     {
-        return new Response(200, new HTMLDocument("login.php"));
+        return new Response(200, (new HTMLDocument("login.php"))->getContent());
     }
 }

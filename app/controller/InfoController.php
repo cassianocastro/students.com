@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Api\Controllers;
+namespace App\controller;
 
 use Api\Http\{ Request, Response, Server };
-use Api\Views\HTMLDocument;
+use App\view\HTMLDocument;
 
 /**
  *

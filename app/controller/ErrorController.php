@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Api\Controllers;
+namespace App\controller;
 
 use Api\Http\{ Request, Response };
 use Api\Models\Helpers\JSONParser;
-use Api\Views\JSONDocument;
+use App\view\JSONDocument;
 
 /**
  *
