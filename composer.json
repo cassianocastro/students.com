@@ -18,12 +18,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "App\\": "src/app/"
+            "App\\": "app/"
         }
     },
 	"autoload-dev": {
         "psr-4": {
-            "Tests\\": "src/tests/"
+            "Tests\\": "tests/"
         }
     },
 	"config": {
