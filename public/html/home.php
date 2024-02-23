@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" type="text/css" href="src/public/css/table.css">
-  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" type="text/css" href="public/css/table.css">
+  <link rel="manifest" type="application/json" href="./manifest.json">
 
   <title>API | Home</title>
 </head>
