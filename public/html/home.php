@@ -5,8 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" type="text/css" href="public/css/table.css">
   <link rel="manifest" type="application/json" href="./manifest.json">
+
+  <link rel="stylesheet" type="text/css" href="public/css/table.css">
 
   <title>API | Home</title>
 </head>
