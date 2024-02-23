@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt-BR" dir="ltr">
+<html lang="en-US" dir="ltr">
 <head>
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>API | Login</title>
@@ -10,12 +10,13 @@
 <body>
   <?php require_once __DIR__ . '/includes/header.inc'; ?>
 
+  <noscript>
+    <p>
+      Please, enable the JavaScript in your browser.
+    </p>
+  </noscript>
+
   <main>
-
-    <noscript>
-      <p>Please, enable the JavaScript in your browser.</p>
-    </noscript>
-
     <section>
       <h1>Form Section</h1>
 
@@ -46,11 +47,8 @@
 
       <output form="loginForm" name="result"></output>
     </section>
-
   </main>
 
   <?php require_once __DIR__ . '/includes/footer.inc'; ?>
-
-  <script src=""></script>
 </body>
 </html>
